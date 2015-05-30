@@ -521,8 +521,9 @@ Tech slide... adjust font to smaller. ;-P
 
 
 # Sources
+Used, mentioned or promised during workshop.
 
-For starters:
+## For starters:
 * http://www.scala-lang.org/documentation/getting-started.html
 * Activator: http://www.typesafe.com/get-started
 * Activator complete docs: http://www.typesafe.com/activator/docs
@@ -535,16 +536,16 @@ For starters:
 * API: http://www.scala-lang.org/documentation/api.html
 * Scala style guide on types: http://docs.scala-lang.org/style/types.html
 * Guide to all kinds of symbols: http://docs.scala-lang.org/tutorials/FAQ/finding-symbols.html
+* Which collection to choose: http://docs.scala-lang.org/tutorials/FAQ/collections.html
+* Twitter's School of Scala: http://twitter.github.io/scala_school/basics.html
 
-http://docs.scala-lang.org/tutorials/FAQ/collections.html
+
+## Type linarization
+* REPL code to show it: http://stackoverflow.com/questions/15623498/handy-ways-to-show-linearization-of-a-class
+* Post outlining it's rules (year 2009!): http://jim-mcbeath.blogspot.com/2009/08/scala-class-linearization.html
 
 
-http://twitter.github.io/scala_school/basics.html
-
-http://stackoverflow.com/questions/15623498/handy-ways-to-show-linearization-of-a-class
-http://jim-mcbeath.blogspot.com/2009/08/scala-class-linearization.html
-
-## New lang things
+## New language things introduced in later major version (2.10)
 
 * New pattern matcher: http://www.scala-lang.org/download/changelog.html#a_new_pattern_matcher
 * String interpolation: http://docs.scala-lang.org/overviews/core/string-interpolation.html
@@ -564,7 +565,7 @@ http://jim-mcbeath.blogspot.com/2009/08/scala-class-linearization.html
   * http://stackoverflow.com/questions/10022408/is-everything-a-function-or-expression-or-object-in-scala
 
 
-## HOW the compilation goes
+## How Scala compilation goes
 
 * Prior to 2.10 via in-house bytecode manipulation lib
 * Afterwards via ASM4: http://lamp.epfl.ch/~magarcia/ScalaCompilerCornerReloaded/2012Q2/GenASM.pdf
@@ -572,20 +573,19 @@ http://jim-mcbeath.blogspot.com/2009/08/scala-class-linearization.html
 * In phases with less text and more structure: http://lampwww.epfl.ch/~emir/bqbase/2005/02/11/scalaPhases.html
 * Take a look at λ for example: http://blog.takipi.com/compiling-lambda-expressions-scala-vs-java-8/
 * Or delve deep: https://github.com/scala/scala/blob/master/src/compiler/scala/tools/nsc/backend/jvm/GenASM.scala
-* 2.12 changes the game! :-)
+* 2.12 changes the game again! :-)
+
 
 ## Books
 
 * Atomic Scala by Bruce Eckel (from GeeCON)
 * 7 languages in 7 week, chapter on Scala, by Bruce A. Tate
 
+
 ## Fun part
 
 * **Konrad Malawski** - inspired me to take a look @Scala and got me learn it's basics in 2 weeks
 * TAAG - text to ascii generator: http://patorjk.com/software/taag/#p=display&f=3D-ASCII&t=SCKRK
 * Picascii: http://picascii.com/
-* Sotte, for Presenting.vim
-* And Brian Moolenar for this very program you see this in
-
-
- 
+* Sotte, for Presenting.vim - https://github.com/sotte/presenting.vim
+* And Bram Moolenaar (Młynarz) for this very program you see this in - http://www.moolenaar.net/
