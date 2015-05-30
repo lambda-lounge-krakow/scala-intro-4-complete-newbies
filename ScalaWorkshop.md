@@ -106,8 +106,6 @@ has a blog: [lafkblogs.wordpress.com](http://lafkblogs.wordpress.com)
 
     [SFI 2013] TDD drogą do oświecenia w Scali - Konrad Malawski, Tomasz Borek
 
-
-
 # REPL
 
 * Read
@@ -153,7 +151,7 @@ All commands are inputted with a colon and in lowercase, like `:so`
 
 * Help
 * Verbosity
-* Shortcuts
+* Shortcuts - in 2.9 :P
 * History
 
 ## FYI:
@@ -161,7 +159,8 @@ All commands are inputted with a colon and in lowercase, like `:so`
 * Nice checks
   * Types
   * Implicits
-  * javap [-v]
+  * Kinds - 2.10+
+  * javap [-v] - output is REALLY verbose
 * More serious compiling
   * cp - classpath
   * imports
@@ -206,7 +205,6 @@ All commands are inputted with a colon and in lowercase, like `:so`
 * What will the type be here?
  * 5. + (4.*(3)) 
  * 5. + ((4).*(3))
-
 
 
 # Expression

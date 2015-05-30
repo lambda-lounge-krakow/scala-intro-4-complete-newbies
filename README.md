@@ -10,6 +10,24 @@ Originally led by @LAFK_pl in a series of three identical meetups:
 Attempts to offer basic blocks and show Scala capabilities from both FP and OOP side to both sides mixed.
 Contained in 2 hours, so it could be attended after work.
 
+## Extra - excercises
+During workshops few topics gained more attention than others. I made couple of promises that I'm following up on with extra excercises. Each excercise is self-contained within it's directory, there is excercise text and code. I encourage to go through them in order (1, 2, 3...) and to use git tags I've set up to see my solutions only after you've attempted your own.
+
+Excercises so far:
+
+* running Scala code (besides REPL) - tag: _Excercise1_
+* multiline Strings and stripMargin - tag: _Excercise2_
+
+TBA:
+
+* access modifiers
+* delayedInit
+* type linearization
+* partial application
+* currying
+* OOP + FP
+* collections
+
 # Prerequisites
 
 Install `scala` from [scala-lang.org](http://scala-lang.org) by downloading archived file, extracting it to your disk and finally adding it's bin dir to your path.
