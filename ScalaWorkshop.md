@@ -409,7 +409,7 @@ Now at different call sites I may provide `m` and `n`:
 # Types
 
     def fun(a: String) = a // inference
-    def fun(a: String): String = 12 // static
+    def fun(a: String): Int = 12 // static
 
 ## Traits
 
