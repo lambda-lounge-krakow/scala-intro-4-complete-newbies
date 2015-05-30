@@ -27,13 +27,13 @@ are in Markdown - [ScalaWorkshop.md](https://github.com/lambda-lounge-krakow/sca
 Then just type `:StartPresenting` and you're set. `n` - next slide, `p` - previous, `q` - quit.
 If folds are annoying you / are closed when you present, type `zn` to open them all.
 
-## Terminal 'resolution'
+## Terminal's 'resolution'
 was set to Monospace font size 22, black on white.
 
 The only slide that didn't fit and required manual re-sizing to default terminal settings has tech slide prior to it.
 The default settings I had then for terminal are Monospace 12, white on black.
 
 # Thanks and feedback
-While my sources list spilled to numerous slides to thank all those, who helped me with this workshop creation, I still made errors - and I claim all to be mine and mine only (preciousss!). If you attended the workshop you may notice something not yet corrected, know that I'm working on this. :-)
+While my sources list spilled to numerous slides to thank all those, who helped me with this workshop creation, I still made errors - and I claim all to be mine and mine only (preciousss!). 
 
 I'll accept all feedback and correction: open an issue or request to pull your correction.
