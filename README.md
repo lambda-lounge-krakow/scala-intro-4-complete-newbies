@@ -25,6 +25,7 @@ are in Markdown - [ScalaWorkshop.md](https://github.com/lambda-lounge-krakow/sca
 * [Presenting.vim](https://github.com/sotte/presenting.vim) plugin by Sotte
 
 Then just type `:StartPresenting` and you're set. `n` - next slide, `p` - previous, `q` - quit.
+If folds are annoying you / are closed when you present, type `zn` to open them all.
 
 ## Terminal 'resolution'
 was set to Monospace font size 22, black on white.
