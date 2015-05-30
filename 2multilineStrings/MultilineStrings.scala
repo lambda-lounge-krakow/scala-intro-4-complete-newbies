@@ -7,8 +7,8 @@ val multilineWithout =
 
 val multilineWith =
 """Strings stripMargin
-   Trompet 
-   is heard wailing""".stripMargin
+   |Trompet 
+   |is heard wailing""".stripMargin('|')
 
 println(multilineWithout)
 println(multilineWith)
