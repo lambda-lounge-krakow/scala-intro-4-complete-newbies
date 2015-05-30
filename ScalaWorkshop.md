@@ -191,9 +191,9 @@ All commands are inputted with a colon and in lowercase, like `:so`
      is victorious"""
 * and try that with `stripMargins`!
 
-   """|Strings are sad
+   """Strings are sad
       |Trompet
-      |is victorious""".stripMargin
+      |is victorious""".stripMargin('|')
 
 * More on Strings? java.lang will gladly oblige.
 
