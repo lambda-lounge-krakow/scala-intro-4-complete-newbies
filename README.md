@@ -36,4 +36,4 @@ The default settings I had then for terminal are Monospace 12, white on black.
 # Thanks and feedback
 While my sources list spilled to numerous slides to thank all those, who helped me with this workshop creation, I still made errors - and I claim all to be mine and mine only (preciousss!). 
 
-I'll accept all feedback and correction: open an issue or request to pull your correction.
+I'm grateful for all feedback and corrections: open an issue or request to pull your correction.
