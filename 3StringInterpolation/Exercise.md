@@ -14,7 +14,7 @@ Rubyists know String interpolation like so:
 `val out = "#{name} is #{age} years old"`
 where name and age either are defined prior or at runtime an error is thrown.
 
-
+## Interpolators
 There are three different interpolators and you can add your own.
 Interpolators are documented in **SIP-11**, that is Scala Improvement Proposal #11, which led to their introduction to Scala language.
 
@@ -54,5 +54,7 @@ Try same String but precede it with `raw` instead of `s`.
 
 ## Advanced usage:
 
-* write your own interpolator! For logs and for JSON.
+* Since you know the API, try interpolating strings without shorthand notation.
+* Write your own interpolator! For logs and for JSON.
 * Take a look at [JsonQuote library](https://github.com/maffoo/jsonquote), note how interpolation is used there.
+* Take a look at how this was done PRIOR to Scala2.10: http://speaking-my-language.blogspot.com/2009/12/string-interpolation-in-scala.html and try implementing some examples here
