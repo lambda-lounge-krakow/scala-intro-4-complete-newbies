@@ -1,6 +1,7 @@
 # Playing with String interpolation
 
-Since Scala 2.10 we can interpolate Strings, that is, change parts of the String using external value.
+Since Scala 2.10 we can interpolate Strings, that is, change parts of the String using external value. Why so late, some would ask, because Martin was against it. :-)
+See old thread on [why Martin hates String interpolation](http://www.scala-lang.org/old/node/2025).
 
 In Java it's not possible to interpolate anything in a String, though you may format a String using any of those 3:
 
@@ -38,6 +39,20 @@ Now try simple formatting, display current date in long and short format or how 
 
 Simple formatting ain't possible with SIMPLE interpolator, but it is possible with FORMATTING interpolator.
 This interpolator was created as an equivalent of C `printf` methods, or Java `String.format()` and others.
+
+You may want to refresh on `printf` formatters (my thanks to Alvin Alexander for this list):
+
+    %c  character
+    %d  decimal (integer) number (base 10)
+    %e  exponential floating-point number
+    %f  floating-point number
+    %i  integer (base 10)
+    %o  octal number (base 8)
+    %s  a string of characters
+    %u  unsigned decimal (integer) number
+    %x  number in hexadecimal (base 16)
+    %%  print a percent sign
+    \%  print a percent sign
 
 ## raw interpolator
 
