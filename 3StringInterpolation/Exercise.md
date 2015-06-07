@@ -33,7 +33,7 @@ Behind the scenes interpolators are expanded to `StringContext("interpolated str
 8. And if a single-line String you have control characters, like `\n` or `\t`?
 9. Can you have nested interpolation?
 
-Now try simple formatting, display current date in long and short format or how much is Π, with 2 and 4 decimal places
+Now try *simple formatting*, display how much is Π, with 2 and 4 decimal places or a number in hex or oct.
 
 ## f interpolator
 
@@ -69,6 +69,7 @@ Try same String but precede it with `raw` instead of `s`.
 
 ## Advanced usage:
 
+* Having `case class MarathonRunner(name: String, distance: Double)` interpolate it's fields in a sentence `runner X ran Y kilometers`.
 * Since you know the API, try interpolating strings without shorthand notation.
 * Write your own interpolator! For logs and for JSON.
 * Take a look at [JsonQuote library](https://github.com/maffoo/jsonquote), note how interpolation is used there.
