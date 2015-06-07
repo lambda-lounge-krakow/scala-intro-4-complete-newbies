@@ -1,4 +1,4 @@
-# Excercise 1: how to run Scala code
+# How to run Scala code
 
 Other than REPL, as this was done during workshops.
 
@@ -44,7 +44,7 @@ Traditional way:
 * Enjoy results.
 
 
-# Bonus excercise
+# Bonus exercise
 To compare traditional way with `main` method and Scala way with extending `App` type, let's use `javap` tool (but not one from REPL, the JDK one).
 Just to inform you: 
 

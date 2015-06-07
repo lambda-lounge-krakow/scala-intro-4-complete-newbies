@@ -11,12 +11,14 @@ Attempts to offer basic blocks and show Scala capabilities from both FP and OOP 
 Contained in 2 hours, so it could be attended after work.
 
 ## Extra - exercises
-During workshops few topics gained more attention than others. I made couple of promises that I'm following up on with extra excercises. Each excercise is self-contained within it's directory, there is excercise text and code. I encourage to go through them in order (1, 2, 3...) and to use git tags I've set up to see my solutions only after you've attempted your own.
+During workshops few topics gained more attention than others. I made couple of promises that I'm following up on with extra exercises. Each exercise is self-contained within it's directory, there is exercise text and code. I encourage to go through them in order (1, 2, 3...) and to use git tags I've set up to see my solutions only after you've attempted your own.
 
 Exercises so far:
 
 * running Scala code (besides REPL) - tag: _Exercise1_
 * multiline Strings and stripMargin - tag: _Exercise2_
+* String interpolation - tag: _Exercise3_
+
 
 TBA:
 
